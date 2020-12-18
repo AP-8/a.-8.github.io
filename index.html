@@ -14,7 +14,7 @@
     background-color: #B;
     color: #333;
     font-size: 18px;
-    font-family: inconsolata;
+    font-family: serif;
   }
   .container {
     margin: 0 auto;
@@ -30,6 +30,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .grid {
+    display: grid;
+    gap: 1rem;
+  }
+  img {
+    max-width: 100%;
+  }
   @media (max-width: 960px) {
     .bifold {
       grid-template-columns: 1fr;
@@ -41,11 +48,13 @@
     andrew potter
   </h1>
   <div class="bifold">
-    <div>
-      [ content here ]
+    <div class="grid">
+      <p>latest</p>
+      <img src="carbon-emissions.png">
     </div>
     <div>
-          <p>[ bio ]
+      Andrew is a soft computer programmer and data analyst 
+      with a growing interest in adopted puppies.
     </div>
   </div>
 </div>
