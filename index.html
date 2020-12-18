@@ -1,1 +1,51 @@
-Hello World
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Andrew Potter (dev/analyst)</title>
+
+<style>
+  * {
+    animation: color ease-in 200ms;
+  }
+  h1, h2, h3, p, time, html, body {
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    background-color: #B;
+    color: #333;
+    font-size: 18px;
+    font-family: inconsolata;
+  }
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 95%;
+    display: grid;
+    gap: 1rem;
+  }
+  a:visited, a {
+    color: inherit;
+  }
+  .bifold {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: 960px) {
+    .bifold {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+<div class="container">
+  <h1>
+    andrew potter
+  </h1>
+  <div class="bifold">
+    <div>
+      [ content here ]
+    </div>
+    <div>
+          <p>[ bio ]
+    </div>
+  </div>
+</div>
